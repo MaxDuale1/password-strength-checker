@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(145deg, #e3e3e3, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    text-align: center;
+    width: 350px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  #strengthContainer {
+    height: 12px;
+    width: 100%;
+    background: #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  #strengthMeter {
+    height: 100%;
+    width: 0%;
+    background: red;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+  
+  #feedback {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 6px;
+  }
+  
